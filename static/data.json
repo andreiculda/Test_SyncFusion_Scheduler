@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "name": "Discover Music",
+    "hasChild": true,
+    "expanded": true
+  },
+  {
+    "id": 2,
+    "pid": 1,
+    "name": "Hot Singles"
+  }
+]

@@ -1,0 +1,60 @@
+$shaddow-2p: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+$shaddow-3p: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
+$shaddow-4p: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+$shaddow-6p: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+$shaddow-8p: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+$shaddow-16p: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+$shaddow-24p: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);
+
+$shaddow-inset-2p: inset 0 2px 2px 0 rgba(0, 0, 0, 0.14), inset 0 3px 1px -2px rgba(0, 0, 0, 0.2), inset 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+$shaddow-inset-3p: inset 0 3px 4px 0 rgba(0, 0, 0, 0.14), inset 0 3px 3px -2px rgba(0, 0, 0, 0.2), inset 0 1px 8px 0 rgba(0, 0, 0, 0.12);
+$shaddow-inset-4p: inset 0 4px 5px 0 rgba(0, 0, 0, 0.14), inset 0 1px 10px 0 rgba(0, 0, 0, 0.12), inset 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+$shaddow-inset-6p: inset 0 6px 10px 0 rgba(0, 0, 0, 0.14), inset 0 1px 18px 0 rgba(0, 0, 0, 0.12), inset 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+$shaddow-inset-8p: inset 0 8px 10px 1px rgba(0, 0, 0, 0.14), inset 0 3px 14px 2px rgba(0, 0, 0, 0.12), inset 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+$shaddow-inset-16p: inset 0 16px 24px 2px rgba(0, 0, 0, 0.14), inset 0 6px 30px 5px rgba(0, 0, 0, 0.12), inset 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+$shaddow-inset-24p: inset 0 9px 46px 8px rgba(0, 0, 0, 0.14), inset 0 11px 15px -7px rgba(0, 0, 0, 0.12), inset 0 24px 38px 3px rgba(0, 0, 0, 0.2);
+
+/*Ussage example: Buttons, cards, search bar*/
+.shadow-2dp {
+    box-shadow: $shaddow-2p;
+}
+
+/*Ussage example: Refresh selector*/
+.shadow-3dp {
+    box-shadow: $shaddow-3p;
+}
+
+/*Ussage example: Navbar*/
+.shadow-4dp {
+    box-shadow: $shaddow-4p;
+}
+
+/*Ussage example: snack bar / alert, FAB*/
+.shadow-6dp {
+    box-shadow: $shaddow-6p;
+}
+
+/*Ussage example: Menu*/
+.shadow-8dp {
+    box-shadow: $shaddow-8p;
+}
+
+/*Ussage example: left & right drawers*/
+.shadow-16dp {
+    box-shadow: $shaddow-16p;
+}
+
+/*Ussage example: dialog / modal*/
+.shadow-24dp {
+    box-shadow: $shaddow-24p;
+}
+
+:root {
+    --shadow-2dp:#{$shaddow-2p};
+    --shadow-3dp:#{$shaddow-3p};
+    --shadow-4dp:#{$shaddow-4p};
+    --shadow-6dp:#{$shaddow-6p};
+    --shadow-8dp:#{$shaddow-8p};
+    --shadow-16dp:#{$shaddow-16p};
+    --shadow-24dp:#{$shaddow-24p};
+}
